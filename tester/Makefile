@@ -1,17 +1,17 @@
 # **************************************************************************** #
 #                                                                              #
-#                                                         ::::::::             #
+#                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
-#                                                      +:+                     #
-#    By: jvan-sni <jvan-sni@student.codam.nl>         +#+                      #
-#                                                    +#+                       #
-#    Created: 2019/10/28 16:59:45 by jvan-sni       #+#    #+#                 #
-#    Updated: 2020/11/18 20:43:23 by nsimon           ###   ########.fr        #
+#                                                     +:+ +:+         +:+      #
+#    By: abronn <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/10/28 16:59:45 by jvan-sni          #+#    #+#              #
+#    Updated: 2021/02/15 15:57:24 by abronn           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # edit this to your get_next_line folder
-GET_NEXT_LINE_FOLDER = ../
+GET_NEXT_LINE_FOLDER = ../gnl_files/
 
 # dont touch this plz
 TESTS = 1 2 5 6 20 25 1024 5000 10000000

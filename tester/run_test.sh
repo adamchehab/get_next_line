@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
-#                                                         ::::::::             #
-#    run_test.sh                                        :+:    :+:             #
-#                                                      +:+                     #
-#    By: jvan-sni <jvan-sni@student.codam.nl>         +#+                      #
-#                                                    +#+                       #
-#    Created: 2019/10/29 11:27:00 by jvan-sni       #+#    #+#                 #
-#    Updated: 2019/11/20 17:50:42 by jvan-sni      ########   odam.nl          #
+#                                                         :::      ::::::::    #
+#    run_test.sh                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: abronn <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/10/29 11:27:00 by jvan-sni          #+#    #+#              #
+#    Updated: 2021/02/15 15:52:38 by abronn           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,11 +45,3 @@ for FILE in *; do
 done
 cd ../../
 
-# bonus tests
-echo "\n${MUTED}-----------------------------------${RESET}\n"
-cd $ADVANCEDFOLDER
-printf "${GREEN}▹ Bonus tests:${RESET}\n\n"
-../../a.out ${ADVANCEDTEST} > temp
-sh ../../test.sh "ADVANCED" ${ADVANCEDANSWERFOLDER}1.txt
-echo ""
-cd ../../
